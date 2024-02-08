@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Приложение погоды</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/resetq.css">
+
+  </head>
+  
+  <body>
+
+        <main class="weather">
+        
+                <form action="" class="form" id="form">
+        
+                    <input type="text" class="form__input" placeholder="Введите город">
+        
+                    <button class="form__btn">
+        
+                        <img src="img/ui/search-2-line.svg" alt="Search">
+        
+                    </button>
+                    
+                </form>
+        
+                <div class="weather__info none">
+        
+                <img class="weather__img" src="img/ui/icon.png" alt="Weather">
+        
+                <div class="weather__temp">22°с</div>
+        
+                <div class="weather__city">Sochi</div>
+
+                <div class="weather__description">Sochi</div>
+                
+            </div>
+        
+                <section class="weather__details none">
+        
+                    <section class="details">
+        
+                        <img class="details__img" src="img/ui/humidity.svg" alt="details">
+        
+                        <div class="details__value" id="humidity">50%</div>
+        
+                        <div class="details__title">Влажность</div>
+        
+                    </section>
+        
+                    <section class="details">
+        
+                        <img class="details__img" src="img/ui/wind-speed.svg" alt="details">
+        
+                        <div class="details__value" id="speed">2м/с</div>
+        
+                        <div class="details__title">Скорость ветра</div>
+        
+                    </section>
+        
+                </section>
+        
+            </main>
+
+        <script src="/js/main.js"></script>
+  
+  </body>
+
+</html>
